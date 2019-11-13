@@ -17,5 +17,8 @@ class UIWidgets : AppCompatActivity() {
         btnGotoMultiCTextView.setOnClickListener {
             C.changeActivity(this@UIWidgets, MultiAutoCompleteTextView())
         }
+        btnGoToSwitcher.setOnClickListener {
+            C.changeActivity(this@UIWidgets,Switcher())
+        }
     }
 }

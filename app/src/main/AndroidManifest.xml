@@ -9,7 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".TextSwitcher">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Switcher" />
+        </activity>
+        <activity android:name=".ImageSwitcher" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Switcher" />
+        </activity>
+        <activity android:name=".Switcher" />
         <activity android:name=".MultiAutoCompleteTextView">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
