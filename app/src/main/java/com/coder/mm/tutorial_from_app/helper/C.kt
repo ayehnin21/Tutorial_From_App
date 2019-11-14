@@ -7,15 +7,26 @@ import android.util.Log
 
 
 object C {
-    fun changeActivity(context: Context, a: Activity){
-        context.startActivity(Intent(context,a::class.java))
+    fun changeActivity(context: Context, a: Activity) {
+        context.startActivity(Intent(context, a::class.java))
     }
 
-    fun l(msg:String){
-        Log.d("my_message",msg)
+    fun l(msg: String) {
+        Log.d("my_message", msg)
     }
 
- val namedList = arrayOf(
+    val namedList = arrayOf(
+
+        "Jurassic Park",
+        "Notting Hill",
+        "Clueless",
+        "the Hynger games",
+        "The king's speech",
+        "the queen",
+        "the wizard of oz",
+        "men in black",
+        "the babadook",
+        "black sheet",
         "Leanne Graham",
         "Ervin Howell",
         "Clementine Bauch",

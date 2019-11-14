@@ -14,5 +14,8 @@ class FirstMenu : AppCompatActivity() {
         btnGotoUIWidget.setOnClickListener {
             C.changeActivity(this@FirstMenu,UIWidgets())
         }
+        btnGotoMenuSample.setOnClickListener {
+            C.changeActivity(this@FirstMenu,MenuSampleList())
+        }
     }
 }

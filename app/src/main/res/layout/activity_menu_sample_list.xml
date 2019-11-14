@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00b0ff"
+    tools:context=".MenuSampleList">
+
+    <Button
+        android:id="@+id/btnGotoSampleMenu"
+        style="@style/n_btn_style"
+        android:layout_marginTop="40dp"
+        android:text="Go to simple menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGotoContentMenu"
+        style="@style/n_btn_style"
+        android:layout_marginTop="32dp"
+        android:text="Go to content menu"
+        app:layout_constraintEnd_toEndOf="@+id/btnGotoSampleMenu"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/btnGotoSampleMenu"
+        app:layout_constraintTop_toBottomOf="@+id/btnGotoSampleMenu" />
+
+    <Button
+        android:id="@+id/btnGotoPopUpMenu"
+        style="@style/n_btn_style"
+        android:layout_marginTop="20dp"
+        android:text="Go to popup menu"
+        app:layout_constraintEnd_toEndOf="@+id/btnGotoContentMenu"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/btnGotoContentMenu"
+        app:layout_constraintTop_toBottomOf="@+id/btnGotoContentMenu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

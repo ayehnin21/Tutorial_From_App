@@ -9,17 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".PopUpMenu"></activity>
+        <activity android:name=".ContentMenu" />
+        <activity android:name=".SimpleMenu" />
+        <activity android:name=".MenuSampleList" />
         <activity android:name=".TextSwitcher">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Switcher" />
         </activity>
-        <activity android:name=".ImageSwitcher" >
+        <activity android:name=".ImageSwitcher">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".Switcher" />
         </activity>
-        <activity android:name=".Switcher" />
+        <activity android:name=".Switcher">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UIWidgets" />
+        </activity>
         <activity android:name=".MultiAutoCompleteTextView">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

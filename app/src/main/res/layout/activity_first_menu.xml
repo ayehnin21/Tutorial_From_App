@@ -8,11 +8,21 @@
 
     <Button
         android:id="@+id/btnGotoUIWidget"
-       style="@style/n_btn_style"
-        android:layout_marginTop="32dp"
+        style="@style/n_btn_style"
+        android:layout_marginTop="64dp"
         android:text="Go to android UI widgets"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.405"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnGotoMenuSample"
+        style="@style/n_btn_style"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Go to menu sample"
+        app:layout_constraintEnd_toEndOf="@+id/btnGotoUIWidget"
+        app:layout_constraintStart_toStartOf="@+id/btnGotoUIWidget"
+        app:layout_constraintTop_toBottomOf="@+id/btnGotoUIWidget" />
 </androidx.constraintlayout.widget.ConstraintLayout>
